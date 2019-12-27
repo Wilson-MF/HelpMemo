@@ -1,2 +1,2 @@
 # HelpMemo
-Ajuda para estudos diversos.
+Ajuda para estudos diversos - Lazarus Free Pascal
