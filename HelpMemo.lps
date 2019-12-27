@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="6">
+      <Unit0>
+        <Filename Value="HelpMemo.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="57"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="frm\uhelpmemo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmHelpMemo"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uHelpMemo"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="339"/>
+        <CursorPos X="48" Y="370"/>
+        <UsageCount Value="57"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="dm\uConexao.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="dmConexao"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="29"/>
+        <CursorPos X="33" Y="57"/>
+        <UsageCount Value="52"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="frm\ubackup.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmBackup"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uBackup"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="34"/>
+        <CursorPos X="39" Y="53"/>
+        <UsageCount Value="38"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="frm\urestaurar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmRestaurar"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="32" Y="8"/>
+        <UsageCount Value="25"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="frm\frmrestaurar.pas"/>
+        <ComponentName Value="frmRestaurar"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmRestaurar"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="12"/>
+        <CursorPos X="3" Y="33"/>
+        <UsageCount Value="21"/>
+      </Unit5>
+    </Units>
+    <JumpHistory Count="22" HistoryIndex="21">
+      <Position1>
+        <Filename Value="frm\uhelpmemo.pas"/>
+        <Caret Line="79" Column="4" TopLine="66"/>
+      </Position1>
+      <Position2>
+        <Filename Value="frm\uhelpmemo.pas"/>
+        <Caret Line="10" Column="13"/>
+      </Position2>
+      <Position3>
+        <Filename Value="frm\uhelpmemo.pas"/>
+        <Caret Line="127" Column="7" TopLine="114"/>
+      </Position3>
+      <Position4>
+        <Filename Value="frm\uhelpmemo.pas"/>
+        <Caret Line="10" Column="13"/>
+      </Position4>
+      <Position5>
+        <Filename Value="frm\uhelpmemo.pas"/>
+        <Caret Line="128" Column="4" TopLine="106"/>
+      </Position5>
+      <Position6>
+        <Filename Value="frm\uhelpmemo.pas"/>
+        <Caret Line="233" TopLine="206"/>
+      </Position6>
+      <Position7>
+        <Filename Value="frm\uhelpmemo.pas"/>
+        <Caret Line="304" Column="46" TopLine="274"/>
+      </Position7>
+      <Position8>
+        <Filename Value="frm\uhelpmemo.pas"/>
+        <Caret Line="166" Column="73" TopLine="144"/>
+      </Position8>
+      <Position9>
+        <Filename Value="frm\uhelpmemo.pas"/>
+        <Caret Line="168" Column="34" TopLine="148"/>
+      </Position9>
+      <Position10>
+        <Filename Value="frm\uhelpmemo.pas"/>
+        <Caret Line="248" Column="23" TopLine="240"/>
+      </Position10>
+      <Position11>
+        <Filename Value="frm\uhelpmemo.pas"/>
+        <Caret Line="241" Column="27" TopLine="230"/>
+      </Position11>
+      <Position12>
+        <Filename Value="frm\uhelpmemo.pas"/>
+        <Caret Line="248" Column="2" TopLine="231"/>
+      </Position12>
+      <Position13>
+        <Filename Value="frm\uhelpmemo.pas"/>
+        <Caret Line="253" Column="29" TopLine="232"/>
+      </Position13>
+      <Position14>
+        <Filename Value="frm\uhelpmemo.pas"/>
+        <Caret Line="265" Column="262" TopLine="232"/>
+      </Position14>
+      <Position15>
+        <Filename Value="frm\uhelpmemo.pas"/>
+        <Caret Line="268" Column="24" TopLine="244"/>
+      </Position15>
+      <Position16>
+        <Filename Value="frm\uhelpmemo.pas"/>
+        <Caret Line="270" Column="40" TopLine="250"/>
+      </Position16>
+      <Position17>
+        <Filename Value="frm\uhelpmemo.pas"/>
+        <Caret Line="371" Column="34" TopLine="336"/>
+      </Position17>
+      <Position18>
+        <Filename Value="frm\uhelpmemo.pas"/>
+        <Caret Line="372" Column="27" TopLine="339"/>
+      </Position18>
+      <Position19>
+        <Filename Value="frm\uhelpmemo.pas"/>
+        <Caret Line="371" Column="27" TopLine="339"/>
+      </Position19>
+      <Position20>
+        <Filename Value="frm\uhelpmemo.pas"/>
+        <Caret Line="370" Column="30" TopLine="339"/>
+      </Position20>
+      <Position21>
+        <Filename Value="frm\uhelpmemo.pas"/>
+        <Caret Line="371" Column="74" TopLine="339"/>
+      </Position21>
+      <Position22>
+        <Filename Value="frm\uhelpmemo.pas"/>
+        <Caret Line="370" Column="51" TopLine="339"/>
+      </Position22>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
