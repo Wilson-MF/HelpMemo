@@ -1,0 +1,152 @@
+object dmConexao: TdmConexao
+  OnCreate = DataModuleCreate
+  OldCreateOrder = False
+  Height = 453
+  HorizontalOffset = 311
+  VerticalOffset = 201
+  Width = 608
+  PPI = 96
+  object ZConexao: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = True
+    Properties.Strings = (
+      'AutoEncodeStrings=ON'
+    )
+    Port = 0
+    Protocol = 'sqlite-3'
+    left = 42
+    top = 43
+  end
+  object qryEstudo: TZQuery
+    Connection = ZConexao
+    UpdateObject = upEstudo
+    AfterPost = qryEstudoAfterPost
+    SQL.Strings = (
+      'SELECT * FROM Estudo'
+    )
+    Params = <>
+    left = 136
+    top = 128
+    object qryEstudoIdEstudo: TLargeintField
+      FieldKind = fkData
+      FieldName = 'IdEstudo'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = True
+    end
+    object qryEstudoAssunto: TStringField
+      FieldKind = fkData
+      FieldName = 'Assunto'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = True
+      Size = 300
+    end
+    object qryEstudoCategoria: TStringField
+      FieldKind = fkData
+      FieldName = 'Categoria'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = True
+      Size = 100
+    end
+    object qryEstudoResumo: TStringField
+      FieldKind = fkData
+      FieldName = 'Resumo'
+      Index = 3
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 8000
+    end
+    object qryEstudoLocal: TStringField
+      FieldKind = fkData
+      FieldName = 'Local'
+      Index = 4
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 300
+    end
+  end
+  object upEstudo: TZUpdateSQL
+    DeleteSQL.Strings = (
+      'DELETE FROM Estudo'
+      'WHERE'
+      '  Estudo.IdEstudo = :OLD_IdEstudo'
+    )
+    InsertSQL.Strings = (
+      'INSERT INTO Estudo'
+      '  (IdEstudo, Assunto, Categoria, Resumo, Local)'
+      'VALUES'
+      '  (:IdEstudo, :Assunto, :Categoria, :Resumo, :Local)'
+    )
+    ModifySQL.Strings = (
+      'UPDATE Estudo SET'
+      '  IdEstudo = :IdEstudo,'
+      '  Assunto = :Assunto,'
+      '  Categoria = :Categoria,'
+      '  Resumo = :Resumo,'
+      '  Local = :Local'
+      'WHERE'
+      '  Estudo.IdEstudo = :OLD_IdEstudo'
+    )
+    UseSequenceFieldForRefreshSQL = False
+    left = 294
+    top = 251
+    ParamData = <    
+      item
+        DataType = ftUnknown
+        Name = 'IdEstudo'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'Assunto'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'Categoria'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'Resumo'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'Local'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'OLD_IdEstudo'
+        ParamType = ptUnknown
+      end>
+  end
+  object dsEstudo: TDataSource
+    DataSet = qryEstudo
+    left = 488
+    top = 368
+  end
+  object qryCombo: TZQuery
+    Connection = ZConexao
+    SQL.Strings = (
+      'SELECT DISTINCT Categoria FROM Estudo '
+      'ORDER BY Categoria ASC'
+    )
+    Params = <>
+    left = 136
+    top = 356
+  end
+end
