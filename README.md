@@ -24,3 +24,9 @@ O sistema de cadastro do HelpMemo é muito simples e intuitivo.</br>
 No entanto ressalto que os assuntos são organizados por categoria e recomendo fortemente que se aplique em dedicar alguns segundos para cadastrar os 
 detalhes importantes de tudo que estiver estudando. Em pouco tempo estará colhendo os resultados dessa prática.
 
+<p align="center">
+<img src="https://github.com/Wilson-MF/HelpMemo/blob/master/imgReadme/Cadastro.png" width="884" alt="Pesquisar">
+</p>
+
+____________
+
