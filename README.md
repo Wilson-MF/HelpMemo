@@ -56,3 +56,4 @@ Ajuda traz uma breve explicação das principais funções.
 </p>
 
 ____________
+
