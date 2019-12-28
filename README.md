@@ -25,7 +25,7 @@ No entanto ressalto que os assuntos são organizados por categoria e recomendo fo
 detalhes importantes de tudo que estiver estudando. Em pouco tempo estará colhendo os resultados dessa prática.
 
 <p align="center">
-<img src="https://github.com/Wilson-MF/HelpMemo/blob/master/imgReadme/cadastro.png" width="878" alt="Cadastro">
+<img src="https://github.com/Wilson-MF/HelpMemo/blob/master/imgReadme/cadastrar.png" width="878" alt="Cadastro">
 </p>
 
 ____________
