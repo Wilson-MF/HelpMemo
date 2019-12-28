@@ -44,3 +44,15 @@ Para restaurar o Banco de Dados, encontre o último backup feito pela data e cliq
 <img src="https://github.com/Wilson-MF/HelpMemo/blob/master/imgReadme/Restaurar.png" width="692" alt="Restaurar">
 </p>
 
+____________
+
+### Utilitários e Ajuda
+
+O HelpMemo traz os utilitários Calculadora, Calendário e um Editor de Texto que pode ser usado como um bloco de notas.</br>
+Ajuda traz uma breve explicação das principais funções.
+
+<p align="center">
+<img src="https://github.com/Wilson-MF/HelpMemo/blob/master/imgReadme/utilAjuda.png" width="880" alt="Utilitários e Ajuda">
+</p>
+
+____________
