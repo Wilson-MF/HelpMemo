@@ -25,7 +25,7 @@ No entanto ressalto que os assuntos são organizados por categoria e recomendo fo
 detalhes importantes de tudo que estiver estudando. Em pouco tempo estará colhendo os resultados dessa prática.
 
 <p align="center">
-<img src="https://github.com/Wilson-MF/HelpMemo/blob/master/imgReadme/Cadastro.png" width="884" alt="Pesquisar">
+<img src="https://github.com/Wilson-MF/HelpMemo/blob/master/imgReadme/Cadastro.png" width="884" alt="Cadastro">
 </p>
 
 ____________
@@ -35,4 +35,9 @@ ____________
 O sistema de backup do HelpMemo acrescentará a data atual ao Banco de Dados. Ficando assim muito fácil gerenciar seus backups. </br>
 Se não escolher um local o backup será feito no mesmo diretório do aplicativo.</br>
 Para restaurar o Banco de Dados, encontre o último backup feito pela data e clique em restaurar.
+
+<p align="center">
+<img src="https://github.com/Wilson-MF/HelpMemo/blob/master/imgReadme/Backup.png" width="692" alt="Backup">
+<img src="https://github.com/Wilson-MF/HelpMemo/blob/master/imgReadme/Restaurar.png" width="692" alt="Restaurar">
+</p>
 
