@@ -16,3 +16,6 @@ Digitando o texto como está na categoria, será selecionado todos os registros da
 <img src="https://github.com/Wilson-MF/HelpMemo/blob/master/imgReadme/Pesquisa.png" width="882" alt="Pesquisar">
 </p>
 ___________
+
+### Detalhes do Cadastro
+
