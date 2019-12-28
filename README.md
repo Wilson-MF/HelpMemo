@@ -30,3 +30,9 @@ detalhes importantes de tudo que estiver estudando. Em pouco tempo estará colhen
 
 ____________
 
+### Backup
+
+O sistema de backup do HelpMemo acrescentará a data atual ao Banco de Dados. Ficando assim muito fácil gerenciar seus backups. </br>
+Se não escolher um local o backup será feito no mesmo diretório do aplicativo.</br>
+Para restaurar o Banco de Dados, encontre o último backup feito pela data e clique em restaurar.
+
