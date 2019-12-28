@@ -13,7 +13,7 @@ Pesquisar no HelpMemo é muito simples, é só digitar no campo pesquisar. A busca 
 Digitando o texto como está na categoria, será selecionado todos os registros daquela categoria.
 
 <p align="center">
-<img src="https://github.com/Wilson-MF/HelpMemo/blob/master/imgReadme/pesquisa.png" width="878" alt="Pesquisar">
+<img src="https://github.com/Wilson-MF/HelpMemo/blob/master/imgReadme/pesquisar.png" width="878" alt="Pesquisar">
 </p>
 
 ____________
@@ -25,7 +25,7 @@ No entanto ressalto que os assuntos são organizados por categoria e recomendo fo
 detalhes importantes de tudo que estiver estudando. Em pouco tempo estará colhendo os resultados dessa prática.
 
 <p align="center">
-<img src="https://github.com/Wilson-MF/HelpMemo/blob/master/imgReadme/Cadastro.png" width="884" alt="Cadastro">
+<img src="https://github.com/Wilson-MF/HelpMemo/blob/master/imgReadme/cadastro.png" width="878" alt="Cadastro">
 </p>
 
 ____________
