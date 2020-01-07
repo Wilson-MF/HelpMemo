@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # HelpMemo
 Ajuda para estudos diversos - Lazarus 2.0.6 Free Pascal
 
@@ -118,4 +117,3 @@ Ajuda traz uma breve explicação das principais funções.
 
 ____________
 
->>>>>>> c2a125a0c72c93c85061eb53d43bb6733551eb0d
